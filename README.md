@@ -1,3 +1,5 @@
+𝘿𝙧 𝙔𝙤𝙬𝙚𝙧𝙞 𝙄
+
 Para poder hacer funcionar el software, es necesario disponer de la aplicación XAMPP Control Panel, ejecutarla y habilitar el servicio de "Apache" y "Mysql".
 
 
