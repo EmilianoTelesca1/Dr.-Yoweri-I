@@ -1,0 +1,41 @@
+.stock-index {
+    font-family: 'Unbounded', cursive;
+}
+.ilike-blue-container {
+    @extend .blue, .lighten-4;
+}
+
+body {
+    color: #212121;
+    background: url(../imagenes/fondoazul.jpg);
+    background-size: 300%;
+}
+
+.saludo {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#index_fondo {
+    background: url(/imagenes/fondoazul.jpg);
+    background-size: 200%;
+}
+h4 {
+    display: inline-block;
+}
+.copy {
+    margin-top: 10px;
+}
+
+main {
+    margin: 10px;
+}
+#bajar {
+    margin-top: 9px;
+}
+.row {
+    padding-left: 18em;
+}
+
+.visualiza {
+    margin-left: 80px;
+}
