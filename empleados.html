@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dr. Yoweri I</title>
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css">
+    <link rel="icon" href="imagenes/iconostock.ico">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <main>
+        <div class="container">
+            <header>
+                <nav>
+                    <div class="nav-wrapper light-blue lighten-4">
+                        <a href="index.html" class="brand-logo center">Dr. Yoweri I</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="empleados.html">Empleados</a></li>
+                        <li><a href="stock.html">Registro</a></li>
+                        <li><a href="inventario.php">Historial</a></li>
+                    </ul>
+                    </div>
+                </nav>
+            </header>
+            <article>
+                <table class="highlight">
+                    <thead>
+                        <tr>
+                            <th>Agregá a los empleados de la empresa en 4 simples pasos:</th>
+                        </tr>
+                    </thead>
+
+                </table>
+                <form action="formulary2.php" method="post">
+                    <input type="number" name="id" placeholder="Id del empleado" required>
+                    <input type="text" name="nombre" placeholder="Nombre del empleado" required>
+                    <input type="email" name="email" placeholder="Email del empleado" required> <p>Horario de Ingreso</p>
+                    <input type="time" name="hora_in" placeholder="Horario de ingreso" required> <p>Horario de Salida</p>
+                    <input type="time" name="hora_sa" placeholder="Horario de salida" required>
+                    <input type="text" name="dia" placeholder="Dias de Trabajo" required>
+                    <center><input type="submit" value="GUARDAR" onclick="M.toast({html: 'Cambios guardados!'})" class="btn orange">
+                    <input type="reset" value="BORRAR" onclick="M.toast({html: 'Datos eliminados!'})" class="btn orange"></center>
+            </form>
+            <center><a style="margin-top: 15px;" href="contactos.php" class="waves-effect waves-light btn-large yellow orange darken-3"><i class="material-icons right">assignment</i>Todos los empleados</a></center>
+        </article>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </div>
+    </main>
+  </body>
+</html>
